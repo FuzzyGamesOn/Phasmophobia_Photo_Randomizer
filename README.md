@@ -4,7 +4,7 @@ A software helper for keeping track of a photo randomizer in the game Phasmophob
 ![Screenshot of photo randomizer helper website](img/readme/screenshot.png)
 
 ## How to Use
-The photo randomizer is hosted at this link: [](https://fuzzygameson.github.io/Phasmophobia_Photo_Randomizer/)
+The photo randomizer is hosted at this link: [https://fuzzygameson.github.io/Phasmophobia_Photo_Randomizer/](https://fuzzygameson.github.io/Phasmophobia_Photo_Randomizer/)
 
 ## Reporting Bugs or Suggesting Features
 To report a bug or suggest a new feature, use the [Issues tab above](https://github.com/FuzzyGamesOn/Phasmophobia_Photo_Randomizer/issues)!
