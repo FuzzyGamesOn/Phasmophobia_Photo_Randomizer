@@ -1,6 +1,4 @@
-# Phasmophobia_Photo_Randomizer
-A software helper for keeping track of a photo randomizer in the game Phasmophobia.
-
+# Photo Randomizer for Phasmophobia
 ![Screenshot of photo randomizer helper website](img/readme/screenshot.png)
 
 ## How to Use
