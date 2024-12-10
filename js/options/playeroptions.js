@@ -24,6 +24,8 @@ class PlayerOptions {
   process_options_from_save() {
     let saved_options = JSON.parse(localStorage.getItem('options'));
 
+    if (!saved_options) return;
+
     for (let option_name of Object.keys(saved_options)) {
       if (Object.keys(this.options).indexOf(option_name) != -1) {
         this.options[option_name].set_value(saved_options[option_name].value);
