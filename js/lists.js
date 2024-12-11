@@ -44,15 +44,19 @@ photo_types_maximums = {
 };
 
 for (let photo_type of photo_types) {
-  if (!(photo_type in Object.keys(photo_types_maximums))) {
+  if (Object.keys(photo_types_maximums).indexOf(photo_type) == -1) {
     photo_types_maximums[photo_type] = 1;
   }
 }
 
-photo_types_items_per_photo = {}
+photo_types_items_per_photo = {
+  "Ghost": 3
+};
 
 for (let photo_type of photo_types) {
-  photo_types_items_per_photo[photo_type] = 1;
+  if (Object.keys(photo_types_items_per_photo).indexOf(photo_type) == -1) {
+    photo_types_items_per_photo[photo_type] = 1;
+  }
 }
 
 option_definitions = {
