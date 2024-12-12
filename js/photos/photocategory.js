@@ -4,6 +4,7 @@ class PhotoCategory {
   max_photos = 0;
   item_unlocks_per_photo = 0;
 
+  /* @fn (name: string) */
   constructor(name) {
     this.name = name;
 

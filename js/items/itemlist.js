@@ -15,10 +15,12 @@ class ItemList {
     $(template_selector).remove();
   }
 
+  /* @fn (item_object: Item) */
   add_item(item_object) {
     this.items.push(item_object);
   }
 
+  /* @fn (item_name: string) */
   unlock_item(item_name) {
     if (this.items.length == 0) return;
     if (this.items.map((i) => i.name).indexOf(item_name) == -1) return;
@@ -39,6 +41,7 @@ class ItemList {
     this.render();
   }
 
+  /* @fn (quantity: int) */
   unlock_random_item(quantity = 1) {
     let valid_items = this.items.filter((i) => player_options.get(PREFIX_INCLUDE_ITEM + i.name));
 

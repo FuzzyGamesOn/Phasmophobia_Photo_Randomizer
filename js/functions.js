@@ -1,3 +1,4 @@
+/* @fn (number: int, min: int, max: int) -> int */
 function clamp(number, min, max) {
   return Math.max(min, Math.min(number, max));
 }

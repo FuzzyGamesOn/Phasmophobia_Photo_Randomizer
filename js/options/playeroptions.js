@@ -9,6 +9,7 @@ class PlayerOptions {
   $template_per_photo;
   $template_include_item;
 
+  /* @fn (options: literal) */
   constructor(options) {
     for (let option of options) {
       this.options[option.name] = option;
@@ -39,10 +40,12 @@ class PlayerOptions {
     localStorage.setItem('options', options_data);
   }
 
+  /* @fn (option_name: string) -> int | bool */
   get(option_name) {
     return this.options[option_name].value;
   }
 
+  /* @fn (option_name: string, val: int | bool) */
   set(option_name, val) {
     if (!option_name) return;
 

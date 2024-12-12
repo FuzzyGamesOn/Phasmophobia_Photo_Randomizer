@@ -13,6 +13,7 @@ class PhotoCategories {
     $(template_selector).remove();
   }
 
+  /* @fn (category_object: PhotoCategory) */
   add_category(category_object) {
     this.categories.push(category_object);
   }
